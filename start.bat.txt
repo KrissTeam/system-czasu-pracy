@@ -1,0 +1,5 @@
+@echo off
+cd /c C:\system-czasu-pracy
+npm install
+npm start
+pause

@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "system-czasu-pracy"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "system-czasu-pracy-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
